@@ -66,17 +66,17 @@ Run the command in your Terminal to initialize this template on your local compu
 
 See the documentation if you are [having issues with the CLI](https://www.sanity.io/help/cli-errors).
 
-```shell
+\`\`\`shell
 npm create sanity@latest -- --template sanity-io/template-nextjs-personal-website
-```
+\`\`\`
 
 #### 2. Run app locally in development mode
 
 Navigate to the template directory using `cd <your app name>`, and start the development servers by running the following command
 
-```shell
+\`\`\`shell
 npm run dev
-```
+\`\`\`
 
 #### 3. Open the app and sign in to the Studio
 

@@ -20,21 +20,21 @@ Use the Deploy Button below. It will let you deploy the starter using [Vercel](h
 
 [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) that was created for you on your GitHub account. Once cloned, run the following command from the project's root directory:
 
-```bash
+\`\`\`bash
 npx vercel link
-```
+\`\`\`
 
 Download the environment variables needed to connect Next.js and the Studio to your Sanity project:
 
-```bash
+\`\`\`bash
 npx vercel env pull
-```
+\`\`\`
 
 ### Step 3. Run Next.js locally in development mode
 
-```bash
+\`\`\`bash
 npm install && npm run dev
-```
+\`\`\`
 
 When you run this development server, the changes you make in your frontend and studio configuration will be applied live using hot reloading.
 
@@ -44,16 +44,16 @@ Your personal website should be up and running on [http://localhost:3000][localh
 
 To deploy your changes to production you use `git`:
 
-```bash
+\`\`\`bash
 git add .
 git commit
 git push
-```
+\`\`\`
 
 Alternatively, you can deploy without a `git` hosting provider using the Vercel CLI:
 
-```bash
+\`\`\`bash
 npx vercel --prod
-```
+\`\`\`
 
 [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsanity-io%2Ftemplate-nextjs-personal-website&project-name=nextjs-personal-website&repository-name=nextjs-personal-website&demo-title=Personal+Website+with+Built-in+Content+Editing&demo-description=A+Sanity-powered+personal+website+with+built-in+content+editing+and+instant+previews.+Uses+App+Router.&demo-url=https%3A%2F%2Ftemplate-nextjs-personal-website.sanity.build%2F&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F6951139%2F206395107-e58a796d-13a9-400a-94b6-31cb5df054ab.png&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx&external-id=nextjs%3Btemplate%3Dtemplate-nextjs-personal-website
